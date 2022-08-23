@@ -15,4 +15,4 @@
 **With postman or browser**
 This repo only has a one functional endpoint
 
-Endpoint ```http://127.0.0.1:8000/api/current?{city}``` Ex: city = 'new york'
+Endpoint ```http://127.0.0.1:8000/api/current?query={city}``` Ex: city = 'new york'
