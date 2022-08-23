@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('city')->unique()->index();
             $table->dateTime('last_query');
             $table->json('response');
-            // $table->timestamps();
+            $table->timestamps();
         });
     }
 
